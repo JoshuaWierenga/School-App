@@ -10,10 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.joshuawierenga.schoolapp.MainPage"
-    tools:showIn="@layout/main_page">
+    tools:showIn="@layout/about_page">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main page!" />
+        android:text="About Page!" />
 </RelativeLayout>
