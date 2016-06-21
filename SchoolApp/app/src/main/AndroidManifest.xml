@@ -18,6 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AboutScreen"
+            android:label="@string/title_activity_about_screen"
+            android:parentActivityName=".HomeScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.joshuawierenga.schoolapp.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".PlanScreen"
+            android:label="@string/title_activity_plan_screen"
+            android:parentActivityName=".HomeScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.joshuawierenga.schoolapp.HomeScreen" />
+        </activity>
     </application>
 
 </manifest>
