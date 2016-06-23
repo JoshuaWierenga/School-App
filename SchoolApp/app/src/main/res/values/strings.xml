@@ -7,6 +7,16 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="home_text">
+        "Welcome to New Town High School. We are a Tasmanian Government secondary school for boys located in New Town, a leafy inner suburb of Hobart,"
+        "Tasmania, Australia. Picturesque and spacious grounds, strong traditions and demanding academic programs in the core learning areas of Mathematics,"
+        "English, Science, and History result in strong enrollment demand. The School has a reputation for its specialist Music programs, and provides a challenging"
+        "curriculum and up to date facilities in Technology, Computing, the Visual Arts, and Health and Physical Education. A contemporary program in Food Studies,"
+        "a vibrant Languages other than English program, and a comprehensive range of activities in the Performing Arts ensure that boys have access to a diverse"
+        "and rich range of educational experiences."\n\n
+
+    </string>
+
     <string name="title_activity_about_screen">About New Town High</string>
     <string name="about_text">
         \n"As the only all boys Government high school in Tasmania, we provide our students with a high quality education that is facilitated through a caring and"
