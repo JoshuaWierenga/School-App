@@ -8,12 +8,13 @@
     <string name="action_settings">Settings</string>
 
     <string name="home_text">
-        "Welcome to New Town High School. We are a Tasmanian Government secondary school for boys located in New Town, a leafy inner suburb of Hobart,"
-        "Tasmania, Australia. Picturesque and spacious grounds, strong traditions and demanding academic programs in the core learning areas of Mathematics,"
-        "English, Science, and History result in strong enrollment demand. The School has a reputation for its specialist Music programs, and provides a challenging"
-        "curriculum and up to date facilities in Technology, Computing, the Visual Arts, and Health and Physical Education. A contemporary program in Food Studies,"
-        "a vibrant Languages other than English program, and a comprehensive range of activities in the Performing Arts ensure that boys have access to a diverse"
-        "and rich range of educational experiences."\n\n
+        Welcome to New Town High School. We are a Tasmanian Government secondary school for boys located in New Town, a leafy inner suburb of Hobart,
+        Tasmania, Australia. Picturesque and spacious grounds, strong traditions and demanding academic programs in the core learning areas of Mathematics,
+        English, Science, and History result in strong enrollment demand.
+
+        \n\nThe School has a reputation for its\nspecialist Music programs, and provides a challenging curriculum and up to date facilities in Technology,
+        Computing, the Visual Arts, and Health and Physical Education. A contemporary program in Food Studies, a vibrant Languages other than English program,
+        and a comprehensive range of activities in the Performing Arts ensure that boys have access to a diverse and rich range of educational experiences.
 
     </string>
 
@@ -34,7 +35,7 @@
         "extra curricula activities."
 
         \n\n"Our timeless and ever relevant motto, ‘We Build for the Future’ highlights the forward thinking nature of the programs that we offer. Our motto, vision, mission"
-        "and core values statements guide our strategic directions and influence our professional decision making processes.\nWe embed our finest traditions and"
+        "and core values statements guide our strategic directions and influence our professional decision making processes. We embed our finest traditions and"
         "professional heritage as <b><i>We Build For The Future.</i></b>"\n\n
 
         <b>"Jason Szczerbanik,"</b>
