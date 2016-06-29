@@ -9,10 +9,13 @@ import android.webkit.WebView;
 
 public class web extends AppCompatActivity {
 
+    public static boolean network = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
+
+        network = isNetworkAvalable();
 
         WebView webView = (WebView) findViewById(R.id.webview);
         webView.setWebViewClient(new customWebClient());
@@ -26,10 +29,6 @@ public class web extends AppCompatActivity {
 
         if (!isNetworkAvalable()) {
             webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-            //String offlinetext = "<html><body>Internet Lost: Showing Offline Version</body></html>";
-            webView.loadUrl("javascript:function offline() {var div = Document.getElementsByClassName('navbar-header')[0], div:innerHTML += \"<p style=\"text-align:justify;\"><strong>Internet Lost: Showing Offline Version</strong></p>\"} offline()");
-
-
         }
 
         webView.loadUrl("https://newtownhighschooltas.org/");
