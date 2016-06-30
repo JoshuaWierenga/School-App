@@ -24,7 +24,6 @@ public class customWebClient extends WebViewClient {
         if (!webhelpers.isNetworkAvalable(view)) {
             String toasttext;
             if (webhelpers.isPageAvalable(view)) {
-                //view.loadUrl("javascript:var offline = document.getElementsByClassName('navbar-header')[0].innerHTML += \"<p style=\\\"text-align:justify;\\\"><strong>Internet Lost: Showing Offline Version</strong></p>\"");
                 toasttext = "Showing Offline Version";
             }
             else {

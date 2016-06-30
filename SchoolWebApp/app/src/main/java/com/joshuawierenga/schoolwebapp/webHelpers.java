@@ -1,6 +1,7 @@
 package com.joshuawierenga.schoolwebapp;
 
 import android.content.Context;
+import android.hardware.camera2.params.StreamConfigurationMap;
 import android.net.ConnectivityManager;
 import android.webkit.WebView;
 
@@ -13,7 +14,8 @@ public class webHelpers {
     }
 
     public boolean isPageAvalable(WebView view) {
-        view.loadUrl("javascript:var offlinestatus = document.getElementsByClassName('navbar-header').length > 0; Android.pageStatus(offlinestatus)");
+        //view.loadUrl("javascript:var offlinestatus = document.getElementsByClassName('navbar-header').length > 0; Android.pageStatus(offlinestatus)");
+        view.loadUrl("javascript:Android.pageStatus(window.location.href)");
         return pagestatus;
     }
 }
