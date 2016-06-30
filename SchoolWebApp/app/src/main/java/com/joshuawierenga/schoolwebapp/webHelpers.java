@@ -1,8 +1,8 @@
 package com.joshuawierenga.schoolwebapp;
 
 import android.content.Context;
-import android.hardware.camera2.params.StreamConfigurationMap;
 import android.net.ConnectivityManager;
+import android.util.Log;
 import android.webkit.WebView;
 
 public class webHelpers {
@@ -14,7 +14,7 @@ public class webHelpers {
     }
 
     public boolean isPageAvalable(WebView view) {
-        //view.loadUrl("javascript:var offlinestatus = document.getElementsByClassName('navbar-header').length > 0; Android.pageStatus(offlinestatus)");
+        Log.i("webAppInterface", "Pre Page Status: " + view.getTitle());
         view.loadUrl("javascript:Android.pageStatus(window.location.href)");
         return pagestatus;
     }

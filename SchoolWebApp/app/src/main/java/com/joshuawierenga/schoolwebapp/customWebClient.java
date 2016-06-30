@@ -2,6 +2,7 @@ package com.joshuawierenga.schoolwebapp;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
@@ -22,15 +23,17 @@ public class customWebClient extends WebViewClient {
 
     public void onPageFinished(WebView view, String url) {
         if (!webhelpers.isNetworkAvalable(view)) {
-            String toasttext;
-            if (webhelpers.isPageAvalable(view)) {
+            String toasttext = "No Offline Copy";
+            boolean page = !webhelpers.isPageAvalable(view);
+            Log.i("webAppInterface", "First Page Status: " + page);
+            if (page) {
+                Log.i("webAppInterface", "Offline Page Status: " + page);
                 toasttext = "Showing Offline Version";
             }
-            else {
-                toasttext = "No Offline Copy";
-            }
+            Log.i("webAppInterface", "Second Page Status: " + page);
             Toast toast = Toast.makeText(view.getContext(), "Internet Lost: " + toasttext, Toast.LENGTH_LONG);
             toast.show();
+            Log.i("webAppInterface", "Third Page Status: " + page);
         }
     }
 }

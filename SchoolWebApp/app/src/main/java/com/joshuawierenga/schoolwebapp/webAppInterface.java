@@ -13,6 +13,7 @@ public class webAppInterface {
 
     @JavascriptInterface
     public void pageStatus(String page) {
-        webHelpers.pagestatus = page == "data:text/html,chromewebdata";
+        Log.i("webAppInterface", "Page Status: " + page);
+        webHelpers.pagestatus = page.equals("data:text/html,chromewebdata");
     }
 }

@@ -3,7 +3,7 @@ package com.joshuawierenga.schoolwebapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
-import android.webkit.WebView;;
+import android.webkit.WebView;
 
 public class webPage extends AppCompatActivity {
     webHelpers webhelpers = new webHelpers();
