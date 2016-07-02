@@ -12,8 +12,8 @@ public class webAppInterface {
     }
 
     @JavascriptInterface
-    public void pageStatus(String page) {
-        Log.i("webAppInterface", "Page Status: " + page);
-        webHelpers.pagestatus = page.equals("data:text/html,chromewebdata");
+    void pageCheck(String page) {
+        webHelpers.currentpage = page;
+        Log.e("webAppInterface", "pageStatus: JSNewPage: " + page);
     }
 }

@@ -8,7 +8,6 @@ import android.webkit.WebView;
 public class webPage extends AppCompatActivity {
     webHelpers webhelpers = new webHelpers();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
